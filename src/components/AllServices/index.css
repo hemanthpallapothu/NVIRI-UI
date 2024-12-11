@@ -1,0 +1,43 @@
+.all-services-bg-container{
+    background-color: #ffffff;
+    background-size: cover;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 25px;
+}
+
+.all-services-title{
+    color: #000000;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.all-services-paragrpah{
+    color: #000000;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.sevices-container{
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 767px) {
+    .sevices-container{
+        list-style-type: none;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}

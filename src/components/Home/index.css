@@ -1,0 +1,108 @@
+.home-page-bg-container{
+    background-color: #ffffff;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.home-page-title{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: open sans;
+    line-height: 48px;
+}
+
+.home-page-banner{
+    width: 250px;
+    height: 205px;
+}
+
+.home-page-paragraph{
+    color: #525F7F;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: open sans;
+    line-height: 34px;
+}
+
+.home-page-input-drop-down{
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.home-page-area{
+    background-color: #5E72E4;
+    padding: 10px;
+    border-radius: 100px;
+    color: #ffffff;
+    font-family: open sans;
+    font-size: 10px;
+}
+
+.home-page-input-drop-down-area-alinement{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.home-page-search-button{
+    background-color: #EA3D12;
+    color: #ffffff;
+    border-radius: 5px;
+    font-family: open sans;
+    height: 35px;
+    width: 90px;
+    border: 0px;
+}
+
+.home-page-input{
+    height: 35px;
+    width: 250px;
+    padding-left: 10px;
+    margin-right: 20px;
+    color: #525F7F;
+    border-color: #525F7F;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+@media screen and (min-width: 767px) {
+    .home-page-bg-container{
+        background-color: #ffffff;
+        background-size: cover;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        justify-content: center;
+        padding-left: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .home-page-title{
+        color: black;
+        font-size: 35px;
+        font-weight: 600;
+        font-family: open sans;
+        line-height: 48px;
+    }
+    .home-page-paragraph{
+        color: #525F7F;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: open sans;
+        line-height: 34px;
+    }
+    .home-page-banner{
+        width: 500px;
+        height: 405px;
+    }
+}

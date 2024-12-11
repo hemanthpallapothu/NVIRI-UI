@@ -1,0 +1,31 @@
+.nav-bar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+
+}
+
+.biz-login-button{
+    background-color: #ffffff;
+    height: 35px;
+    width: 100px;
+    border-radius: 100px;
+    border: 0px;
+    box-shadow: 10px 10px 10px 10px #EDEDED;
+    font-family: roboto;
+}
+
+.login-button{
+    background-color: #EA3D12;
+    color: #ffffff;
+    height: 35px;
+    width: 100px;
+    border-radius: 100px;
+    border: 0px;
+    box-shadow: 10px 10px 10px 10px #EDEDED;
+    font-family: roboto;
+    margin-left: 20px;
+    margin-right: 50px;
+}

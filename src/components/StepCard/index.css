@@ -1,0 +1,26 @@
+.step-card{
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+}
+
+.step-image{
+    height: 200px;
+    width: 200px;
+}
+
+.step-title{
+    color: black;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.step-description{
+    color: #525F7F;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+}

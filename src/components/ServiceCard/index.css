@@ -1,0 +1,24 @@
+.sevice-bg-container{
+    margin: 30px;
+    width: 354px;
+    height: 200px;
+}
+
+.sevice-icon{
+    width: 30px;
+    height: 40px;
+}
+
+.sevice-title{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sevice-description{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 300;
+    width: 294px;
+}
+
