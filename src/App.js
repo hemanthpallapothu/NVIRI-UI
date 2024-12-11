@@ -1,7 +1,7 @@
-import Login from './components/Login'
+import Argon from './components/Argon'
 
 import './App.css'
 
-const App=()=> <Login/>
+const App=()=> <Argon/>
 
 export default App;
